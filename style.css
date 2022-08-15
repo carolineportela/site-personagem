@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    height:80px;
+    background-color : rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    
+}
+.logo{
+    height: 20px;
+
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    align-items: center;
+    gap:30px;
+    padding: 30px;
+}
+
+.intro{
+    display: flex;
+    flex-direction:column;
+    gap:5px;
+    
+
+}
+.titulo{
+
+    font-size: 60px;
+    width: 800px;
+    text-align:center ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.subtitulo{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.info{
+text-align: center;
+
+}
+.info span{
+ font-weight: 900;
+
+}
+.foto-site{
+    width: 800px;
+    border: 6px solid yellowgreen;
+
+}
+.Descrição,
+.Filmes{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    padding: 4px;
+    gap: 8px;
+    
+
+}
+section {
+    width: 800px;
+    
+}
+.subtitulo-destaque{
+    
+background-color: black;
+color: greenyellow;
+padding:5px;
+}
+
+
+footer{
+    height:50px;
+    background-color: greenyellow;
+
+   
+    
+}
